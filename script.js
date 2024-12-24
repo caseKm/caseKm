@@ -1,24 +1,16 @@
-document.addEventListener("DOMContentLoaded", () => {
-    // データ
-    const nodes = [
-      { id: "1", title: "ノード1", image: "./assets/4798157198.jpg", info: "追加情報1: 詳細A, 詳細B" },
-      { id: "2", title: "ノード2", image: "./assets/4798157198.jpg", info: "追加情報2: 詳細X, 詳細Y" },
-      { id: "3", title: "ノード3", image: "./assets/4798157198.jpg", info: "追加情報3: 詳細P, 詳細Q" }
-    ];
-    const edges = [
-      { source: "1", target: "2" },
-      { source: "1", target: "3" },
-      { source: "2", target: "3" }
-    ];
+document.addEventListener("DOMContentLoaded", async () => {
+    // JSONデータを読み込む
+    const response = await fetch('./graph.json');
+    const data = await response.json();
   
     // Cytoscape初期化
     const cy = cytoscape({
       container: document.getElementById("graph-container"), // グラフを描画するコンテナ
       elements: [
-        ...nodes.map(node => ({
+        ...data.nodes.map(node => ({
           data: { id: node.id, label: node.title, image: node.image, info: node.info }
         })),
-        ...edges.map(edge => ({
+        ...data.edges.map(edge => ({
           data: { source: edge.source, target: edge.target }
         }))
       ],
