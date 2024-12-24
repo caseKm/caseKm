@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
             "shape": "rectangle",
             "background-image": "data(image)",
             "background-fit": "contain",
-            "height": "70px",
             "border-color": "#007acc",
             "border-width": 2,
             "label": "data(label)",
