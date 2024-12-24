@@ -26,8 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
         {
           selector: "node",
           style: {
+            "shape": "rectangle",
             "background-image": "data(image)",
-            "background-fit": "cover",
+            "background-fit": "contain",
+            "height": "70px",
             "border-color": "#007acc",
             "border-width": 2,
             "label": "data(label)",
