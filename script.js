@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           data: { id: node.id, label: node.title, image: node.image, info: node.info }
         })),
         ...data.edges.map(edge => ({
-          data: { source: edge.source, target: edge.target }
+          data: { source: edge.source, target: edge.target, strength: edge.strength }
         }))
       ],
       style: [
@@ -42,6 +42,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       ],
       layout: {
         name: "cose", // 力学レイアウト
+        edgeElasticity: function(edge) {
+            return edge.data("strength") || 1; // strength属性で強さを調整
+        },
         animate: true
       }
     });
