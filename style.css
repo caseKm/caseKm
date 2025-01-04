@@ -17,4 +17,5 @@
     pointer-events: none;
     font-size: 0.9em;
     z-index: 1000;
+    white-space: pre-line; /* 改行を有効化 */
   }
