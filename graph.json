@@ -2,7 +2,8 @@
     "nodes": [
         { "id": "1", "title": "ノード1", "image": "./assets/4798157198.jpg", "info": "追加情報1: 詳細A, 詳細B" },
         { "id": "2", "title": "エンジニアが一生困らない ドキュメント作成の基本", "image": "./assets/B0DGPL7RYR.jpg", "info": "追加情報2: 詳細X, 詳細Y" },
-        { "id": "3", "title": "技術者のためのテクニカルライティング入門講座", "image": "./assets/4798157198.jpg", "info": "追加情報3: 詳細P, 詳細Q" }
+        { "id": "3", "title": "技術者のためのテクニカルライティング入門講座", "image": "./assets/4798157198.jpg", "info": "追加情報3: 詳細P, 詳細Q" },
+        { "id": "4", "title": "コンサル一年目が学ぶこと", "image": "./assets/4799315323.jpg", "info": "分類：ビジネススキル\n推奨読者：新人\nタイミング：定期的" }
     ],
     "edges": [
         { "source": "1", "target": "2", "strength": "1" },
