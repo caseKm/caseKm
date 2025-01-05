@@ -11,6 +11,7 @@
         { "id": "B01MU055XH", "title": "HIGH OUTPUT MANAGEMENT", "state": "finished", "image": "./assets/B01MU055XH.jpg", "info": "分類：チームマネジメント\n推奨読者：リーダー\nタイミング：リーダーになったとき" },
         { "id": "B0CL97CXGD", "title": "マネジャーの全仕事 いつの時代も変わらない「人の上に立つ人」の常識", "state": "unread", "image": "./assets/B0CL97CXGD.jpg", "info": "分類：チームマネジメント\n状態：未読" },
         { "id": "B087X4WJLR", "title": "良い戦略、悪い戦略", "state": "unread", "image": "./assets/B087X4WJLR.jpg", "info": "分類：ストラテジックマネジメント\n状態：未読" },
+        { "id": "B00978ZRYA", "title": "ストーリーとしての競争戦略", "state": "unpurchased", "image": "./assets/B00978ZRYA.jpg", "info": "分類：ストラテジックマネジメント\n状態：未読" },
         { "id": "B0C85LBP4J", "title": "外資系コンサルが教えるプロジェクトマネジメント", "state": "unread", "image": "./assets/B0C85LBP4J.jpg", "info": "分類：プロジェクトマネジメント\n状態：未読" },
         { "id": "B07F3S9PDX", "title": "外資系コンサルが教える難題を解決する12ステップ プロジェクトリーダーの教科書", "state": "unread", "image": "./assets/B07F3S9PDX.jpg", "info": "分類：プロジェクトマネジメント\n状態：未読" },
         { "id": "B0BVLM8RR2", "title": "みんなのフィードバック大全", "state": "unread", "image": "./assets/B0BVLM8RR2.jpg", "info": "分類：チームマネジメント\n状態：未読" }
@@ -24,6 +25,7 @@
         { "source": "B0CL97CXGD", "target": "B0BWDT77BT", "strength": "2" },
         { "source": "B01MU055XH", "target": "B0BWDT77BT", "strength": "2" },
         { "source": "B01MU055XH", "target": "B0CL97CXGD", "strength": "2" },
+        { "source": "B00978ZRYA", "target": "B087X4WJLR", "strength": "2" },
         { "source": "B07F3S9PDX", "target": "B0C85LBP4J", "strength": "2" }
     ]
 }
