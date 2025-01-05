@@ -5,7 +5,8 @@
         { "id": "4798157198", "title": "技術者のためのテクニカルライティング入門講座", "state": "unread", "image": "./assets/4798157198.jpg", "info": "追加情報3: 詳細P, 詳細Q" },
         { "id": "4799315323", "title": "コンサル一年目が学ぶこと", "state": "finished", "image": "./assets/4799315323.jpg", "info": "分類：ビジネススキル\n推奨読者：新人\nタイミング：定期的" },
         { "id": "B0BPX6YYQL", "title": "事業をエンジニアリングする技術者たち", "state": "unpurchased", "image": "./assets/B0BPX6YYQL.jpg", "info": "分類：ビジネス\n状態：未読\n期待する内容:エンジニアと事業の関わり"},
-        { "id": "B0BWDT77BT", "title": "エンジニアのためのマネジメント入門", "state": "finished", "image": "./assets/B0BWDT77BT.jpg", "info": "分類：マネジメント\n推奨読者：リーダー\nタイミング：リーダーになったとき" }
+        { "id": "B0BWDT77BT", "title": "エンジニアのためのマネジメント入門", "state": "finished", "image": "./assets/B0BWDT77BT.jpg", "info": "分類：マネジメント\n推奨読者：リーダー\nタイミング：リーダーになったとき" },
+        { "id": "B087X4WJLR", "title": "良い戦略、悪い戦略", "state": "unread", "image": "./assets/B087X4WJLR.jpg", "info": "分類：戦略策定\n状態：未読" }
     ],
     "edges": [
         { "source": "482223925X", "target": "B0DGPL7RYR", "strength": "1" },
