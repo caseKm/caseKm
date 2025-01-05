@@ -6,6 +6,7 @@
         { "id": "4799315323", "title": "コンサル一年目が学ぶこと", "state": "finished", "image": "./assets/4799315323.jpg", "info": "分類：ビジネススキル\n推奨読者：新人\nタイミング：定期的" },
         { "id": "B0BPX6YYQL", "title": "事業をエンジニアリングする技術者たち", "state": "unpurchased", "image": "./assets/B0BPX6YYQL.jpg", "info": "分類：ビジネス\n状態：未読\n期待する内容:エンジニアと事業の関わり"},
         { "id": "B0BWDT77BT", "title": "エンジニアのためのマネジメント入門", "state": "finished", "image": "./assets/B0BWDT77BT.jpg", "info": "分類：エンジニアリングマネジメント\n推奨読者：リーダー\nタイミング：リーダーになったとき" },
+        { "id": "B0CL97CXGD", "title": "マネジャーの全仕事 いつの時代も変わらない「人の上に立つ人」の常識", "state": "unread", "image": "./assets/B0CL97CXGD.jpg", "info": "分類：チームマネジメント\n状態：未読" },
         { "id": "B087X4WJLR", "title": "良い戦略、悪い戦略", "state": "unread", "image": "./assets/B087X4WJLR.jpg", "info": "分類：ストラテジックマネジメント\n状態：未読" },
         { "id": "B0C85LBP4J", "title": "外資系コンサルが教えるプロジェクトマネジメント", "state": "unread", "image": "./assets/B0C85LBP4J.jpg", "info": "分類：プロジェクトマネジメント\n状態：未読" },
         { "id": "B0BVLM8RR2", "title": "みんなのフィードバック大全", "state": "unread", "image": "./assets/B0BVLM8RR2.jpg", "info": "分類：チームマネジメント\n状態：未読" }
@@ -13,6 +14,7 @@
     "edges": [
         { "source": "482223925X", "target": "B0DGPL7RYR", "strength": "1" },
         { "source": "482223925X", "target": "4798157198", "strength": "1" },
-        { "source": "B0DGPL7RYR", "target": "4798157198", "strength": "1" }
+        { "source": "B0DGPL7RYR", "target": "4798157198", "strength": "1" },
+        { "source": "B0CL97CXGD", "target": "B0BWDT77BT", "strength": "2" }
     ]
 }
