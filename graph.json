@@ -1,6 +1,7 @@
 {
     "nodes": [
         { "id": "482223925X", "title": "誰も教えてくれない計画するスキル", "state": "finished", "image": "./assets/482223925X.jpg", "info": "分類：ビジネススキル\n推奨読者：新人\nタイミング：定期的" },
+        { "id": "4822280535", "title": "デッドライン", "state": "unread", "image": "./assets/4822280535.jpg", "info": "分類：スケジュール管理\n状態：忘却" },
         { "id": "B0DGPL7RYR", "title": "エンジニアが一生困らない ドキュメント作成の基本", "state": "unpurchased", "image": "./assets/B0DGPL7RYR.jpg", "info": "追加情報2: 詳細X, 詳細Y" },
         { "id": "4798157198", "title": "技術者のためのテクニカルライティング入門講座", "state": "unread", "image": "./assets/4798157198.jpg", "info": "追加情報3: 詳細P, 詳細Q" },
         { "id": "4799315323", "title": "コンサル一年目が学ぶこと", "state": "finished", "image": "./assets/4799315323.jpg", "info": "分類：ビジネススキル\n推奨読者：新人\nタイミング：定期的" },
@@ -13,7 +14,7 @@
         { "id": "B0BVLM8RR2", "title": "みんなのフィードバック大全", "state": "unread", "image": "./assets/B0BVLM8RR2.jpg", "info": "分類：チームマネジメント\n状態：未読" }
     ],
     "edges": [
-        { "source": "482223925X", "target": "B0DGPL7RYR", "strength": "1" },
+        { "source": "482223925X", "target": "4822280535", "strength": "2" },
         { "source": "482223925X", "target": "4798157198", "strength": "1" },
         { "source": "B0DGPL7RYR", "target": "4798157198", "strength": "1" },
         { "source": "B0CL97CXGD", "target": "B0BWDT77BT", "strength": "2" },
