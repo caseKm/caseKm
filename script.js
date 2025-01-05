@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       container: document.getElementById("graph-container"), // グラフを描画するコンテナ
       elements: [
         ...data.nodes.map(node => ({
-          data: { id: node.id, label: node.title, image: node.image, info: node.info }
+          data: { id: node.id, label: node.title, state: node.state, image: node.image, info: node.info }
         })),
         ...data.edges.map(edge => ({
           data: { source: edge.source, target: edge.target, strength: edge.strength }
@@ -30,6 +30,27 @@ document.addEventListener("DOMContentLoaded", async () => {
             "text-halign": "center",
             "font-size": 12,
             "text-margin-y": -5
+          }
+        },
+        // stateがunpurchasedの場合
+        {
+          selector: 'node[state="unpurchased"]',
+          style: {
+            'border-color': 'gray'
+          }
+        },
+        // stateがunreadの場合
+        {
+          selector: 'node[state="unread"]',
+          style: {
+            'border-color': 'red'
+          }
+        },
+        // stateがfinishedの場合
+        {
+          selector: 'node[state="finished"]',
+          style: {
+            'border-color': 'green'
           }
         },
         {
